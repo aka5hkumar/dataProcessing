@@ -1,0 +1,13 @@
+Field,Description
+cusip,bond identifier
+reported_date,date trade was reported
+spread,spread value of the trade
+price,price value of the trade. Price is per million notional traded.
+reported_volume,reported volume of the trade
+estimated_volume,estimated volume of the trade
+execution_time,datetime when trade was executed
+reported_time,datetime when trade was reported
+reporting_party_type,indicates type of party that reported the trade. Can be 'D' for dealer or 'T' for ATS.
+contra_party_type,"indicates type of party that was counterpart to the trade. Can be 'D' for dealer, 'T' for ATS', 'C' for customer, or 'A' for affliate."
+side,side of the reporting part
+quantity_ind,indicates if reported quantity is actual or estimated. Can be 'A' for actual or 'E' for estimated

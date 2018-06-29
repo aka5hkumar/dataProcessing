@@ -1,0 +1,17 @@
+Field,Description
+SecurityName,name of bond
+Identifier,bond identifier
+Date,datetime that quote was received
+ColorValue,The quote value
+ColorMatch,The raw value that comes from the dealer and is converted to ColorValue
+Benchmark,the benchmark that’s used the corresponding value/type. Not guaranteed to exist.
+QuoteType,"indicates if the quote is in price, spread, or yield terms"
+ColorType,indicates if quote is bid or ask
+Size,size of the quote
+SectorType,"CORP, etc"
+Tier,tier of the dealer
+TierDesignation,anonymous letter for the dealer. Specific to both the bond and date
+Region,U.S./U.K./Cayment Islands/Jersey/ etc
+MdColorId,Unique identifer for quote
+GroupingKey,an ID that uniquely identifies an email message
+LineNumber,the line number within the email message (identified by the GroupingKey)
